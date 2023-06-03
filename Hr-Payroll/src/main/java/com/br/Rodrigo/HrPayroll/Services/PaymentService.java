@@ -12,7 +12,7 @@ public class PaymentService {
 
     public Payment getPayment(long workerId, int days){
 
-        return new Payment("Bob",200.0, days);
+        return new Payment("Alex", 200.0,days);
     }
     
 	
